@@ -53,5 +53,33 @@
   "System.Threading.Tasks.Extensions": {
     "listed": false,
     "version": "4.4.0"
+  },
+  "System.Threading.Channels": {
+    "listed": false,
+    "version": "4.7.1"
+  },
+  "Lidgren.Network.Core2": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "RabbitMQ.Client": {
+    "listed": true,
+    "version": "5.2.0"
+  },
+  "WebSocketSharp-netstandard": {
+    "listed": true,
+    "version": "1.0.1"
+  },
+  "clipper.NetStandard2": {
+    "listed": true,
+    "version": "6.4.2"
+  },
+  "Poly2Tri.NetStandard2": {
+    "listed": true,
+    "version": "1.0.0"
+  },
+  "Unity3D.Interpolate.NetStandard2": {
+    "listed": true,
+    "version": "1.0.0"
   }
 }
