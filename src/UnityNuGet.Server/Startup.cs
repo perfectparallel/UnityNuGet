@@ -30,7 +30,7 @@ namespace UnityNuGet.Server
         {
             var loggerRedirect = new NuGetRedirectLogger(LoggerFactory.CreateLogger("NuGet"));
 
-            string url = "https://unitynuget-registry.azurewebsites.net/";
+            string url = "http://perfectparallel-unitynuget.azurewebsites.net/";
 
             bool isDevelopment = HostingEnvironment.IsDevelopment();
             if (isDevelopment)
