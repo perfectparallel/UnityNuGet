@@ -14,6 +14,26 @@
   "Microsoft.CSharp": {
     "ignore": true
   },
+  "Microsoft.Extensions.Primitives": {
+    "listed": false,
+    "version": "3.1.9"
+  },
+  "Microsoft.Extensions.Configuration.Abstractions": {
+    "listed": false,
+    "version": "3.1.9"
+  },
+  "Microsoft.Extensions.Configuration": {
+    "listed": false,
+    "version": "3.1.9"
+  },
+  "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+    "listed": false,
+    "version": "3.1.9"
+  },
+  "Microsoft.Extensions.Logging.Abstractions": {
+    "listed": false,
+    "version": "3.1.9"
+  },
   "morelinq": {
     "listed": true,
     "version": "3.2.0"
@@ -58,6 +78,18 @@
     "listed": false,
     "version": "4.7.1"
   },
+  "OpenTracing": {
+    "listed": false,
+    "version": "0.12.1"
+  },
+  "Jaeger.Core": {
+    "listed": false,
+    "version": "0.4.1"
+  },
+  "Jaeger.Senders.Thrift": {
+    "listed": false,
+    "version": "0.4.1"
+  },
   "Lidgren.Network.Core2": {
     "listed": true,
     "version": "1.0.0"
@@ -81,14 +113,6 @@
   "Unity3D.Interpolate.NetStandard2": {
     "listed": true,
     "version": "1.0.0"
-  },
-  "Jaeger.Core": {
-    "listed": true,
-    "version": "0.4.1"
-  },
-  "Jaeger.Senders.Thrift": {
-    "listed": true,
-    "version": "0.4.1"
   },
   "Jaeger": {
     "listed": true,
