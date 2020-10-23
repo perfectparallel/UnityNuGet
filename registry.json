@@ -81,5 +81,9 @@
   "Unity3D.Interpolate.NetStandard2": {
     "listed": true,
     "version": "1.0.0"
+  },
+  "Jaeger": {
+    "listed": true,
+    "version": "0.4.1"
   }
 }
