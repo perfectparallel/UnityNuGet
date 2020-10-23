@@ -82,6 +82,14 @@
     "listed": true,
     "version": "1.0.0"
   },
+  "Jaeger.Core": {
+    "listed": true,
+    "version": "0.4.1"
+  },
+  "Jaeger.Senders.Thrift": {
+    "listed": true,
+    "version": "0.4.1"
+  },
   "Jaeger": {
     "listed": true,
     "version": "0.4.1"
