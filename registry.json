@@ -1,55 +1,29 @@
 {
-  "Eflatun.Expansions": {
-    "listed": true,
-    "version": "0.0.2"
-  },
-  "GeneticSharp": {
-    "listed": true,
-    "version": "2.0.0"
-  },
-  "Microsoft.Azure.Kinect.Sensor": {
-    "listed": true,
-    "version": "1.2.0"
-  },
   "Microsoft.CSharp": {
     "ignore": true
   },
-  "Microsoft.Extensions.Primitives": {
-    "listed": false,
-    "version": "3.1.9"
-  },
+
   "Microsoft.Extensions.Configuration.Abstractions": {
     "listed": false,
-    "version": "3.1.9"
-  },
-  "Microsoft.Extensions.Configuration": {
-    "listed": false,
-    "version": "3.1.9"
+    "version": "2.2.0"
   },
   "Microsoft.Extensions.Configuration.EnvironmentVariables": {
     "listed": false,
-    "version": "3.1.9"
+    "version": "2.2.0"
+  },
+  "Microsoft.Extensions.Primitives": {
+    "listed": false,
+    "version": "2.2.0"
   },
   "Microsoft.Extensions.Logging.Abstractions": {
     "listed": false,
-    "version": "3.1.9"
+    "version": "2.2.0"
   },
-  "morelinq": {
-    "listed": true,
-    "version": "3.2.0"
+  "Microsoft.Extensions.Configuration": {
+    "listed": false,
+    "version": "2.2.0"
   },
-  "Newtonsoft.Json": {
-    "listed": true,
-    "version": "11.0.1"
-  },
-  "Scriban": {
-    "listed": true,
-    "version": "2.1.0"
-  },
-  "Sharpcompress": {
-    "listed": true,
-    "version": "0.24.0"
-  },
+
   "System.Buffers": {
     "listed": true,
     "version": "4.4.0"
@@ -63,12 +37,8 @@
     "version": "4.4.0"
   },
   "System.Runtime.CompilerServices.Unsafe": {
-    "listed": true,
-    "version": "4.4.0"
-  },
-  "System.Text.Encoding.CodePages": {
     "listed": false,
-    "version": "4.5.0"
+    "version": "4.4.0"
   },
   "System.Threading.Tasks.Extensions": {
     "listed": false,
@@ -80,15 +50,16 @@
   },
   "OpenTracing": {
     "listed": false,
-    "version": "0.12.1"
+    "version": "0.12.0"
   },
-  "Jaeger.Core": {
+  "Jaeger.Thrift.VendoredThrift": {
     "listed": false,
-    "version": "0.4.1"
+    "version": "0.3.7"
   },
-  "Jaeger.Senders.Thrift": {
-    "listed": false,
-    "version": "0.4.1"
+
+  "Newtonsoft.Json": {
+    "listed": true,
+    "version": "11.0.1"
   },
   "Lidgren.Network.Core2": {
     "listed": true,
@@ -114,8 +85,12 @@
     "listed": true,
     "version": "1.0.0"
   },
-  "Jaeger": {
+  "Jaeger.Core": {
     "listed": true,
-    "version": "0.4.1"
+    "version": "0.4.0"
+  },
+  "Jaeger.Thrift": {
+    "listed": true,
+    "version": "0.3.7"
   }
 }
