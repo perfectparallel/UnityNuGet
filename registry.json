@@ -5,23 +5,23 @@
 
   "Microsoft.Extensions.Configuration.Abstractions": {
     "listed": false,
-    "version": "2.2.0"
+    "version": "2.0.0"
   },
   "Microsoft.Extensions.Configuration.EnvironmentVariables": {
     "listed": false,
-    "version": "2.2.0"
+    "version": "2.0.0"
   },
   "Microsoft.Extensions.Primitives": {
     "listed": false,
-    "version": "2.2.0"
+    "version": "2.0.0"
   },
   "Microsoft.Extensions.Logging.Abstractions": {
     "listed": false,
-    "version": "2.2.0"
+    "version": "2.0.0"
   },
   "Microsoft.Extensions.Configuration": {
     "listed": false,
-    "version": "2.2.0"
+    "version": "2.0.0"
   },
 
   "System.Buffers": {
@@ -30,7 +30,7 @@
   },
   "System.Memory": {
     "listed": true,
-    "version": "4.5.0"
+    "version": "4.4.0"
   },
   "System.Numerics.Vectors": {
     "listed": false,
@@ -39,7 +39,7 @@
   "System.Runtime.CompilerServices.Unsafe": {
     "listed": false,
     "version": "4.4.0"
-  },
+  },    
   "System.Threading.Tasks.Extensions": {
     "listed": false,
     "version": "4.4.0"
@@ -52,14 +52,18 @@
     "listed": false,
     "version": "0.12.0"
   },
+  "Jaeger.Thrift": {
+    "listed": true,
+    "version": "0.2.2"
+  },
   "Jaeger.Thrift.VendoredThrift": {
-    "listed": false,
-    "version": "0.3.7"
+    "listed": true,
+    "version": "0.2.2"
   },
 
   "Newtonsoft.Json": {
     "listed": true,
-    "version": "11.0.1"
+    "version": "9.0.0"
   },
   "Lidgren.Network.Core2": {
     "listed": true,
@@ -85,12 +89,8 @@
     "listed": true,
     "version": "1.0.0"
   },
-  "Jaeger.Core": {
+  "Jaeger": {
     "listed": true,
-    "version": "0.4.0"
-  },
-  "Jaeger.Thrift": {
-    "listed": true,
-    "version": "0.3.7"
+    "version": "[0.2.2,0.4.0)"
   }
 }
