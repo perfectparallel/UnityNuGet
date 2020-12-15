@@ -30,7 +30,7 @@ namespace UnityNuGet
         private static readonly Encoding Utf8EncodingNoBom = new UTF8Encoding(false, false);
         private const string UnityScope = "org.nuget";
         private const string MinimumUnityVersion = "2019.1";
-        private const string PackageNameNuGetPostFix = " (NuGet)";
+        private const string AuthorNameUnityGroup = "NuGet";
         private readonly ISettings _settings;
         private readonly SourceRepository _sourceRepository;
         private static readonly NuGetFramework NuGetFrameworkNetStandard20 = NuGetFramework.Parse("netstandard2.0");
@@ -220,8 +220,8 @@ namespace UnityNuGet
                         Version = currentVersion.ToString(),
                         Name = npmPackageId,
                         Description = packageMeta.Description,
-                        Author = npmPackageInfo.Author,
-                        DisplayName = packageMeta.Title + PackageNameNuGetPostFix
+                        Author = AuthorNameUnityGroup,
+                        DisplayName = $"{packageMeta.Title} ({npmPackageInfo.Author})";
                     };
                     npmVersion.Distribution.Tarball = new Uri($"{RootHttpUrl}/{npmPackage.Id}/-/{GetUnityPackageFileName(packageIdentity)}");
                     npmVersion.Unity = MinimumUnityVersion;
