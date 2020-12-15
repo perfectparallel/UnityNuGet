@@ -221,7 +221,7 @@ namespace UnityNuGet
                         Name = npmPackageId,
                         Description = packageMeta.Description,
                         Author = AuthorNameUnityGroup,
-                        DisplayName = $"{packageMeta.Title} ({npmPackageInfo.Author})";
+                        DisplayName = $"{packageMeta.Title} ({npmPackageInfo.Author})"
                     };
                     npmVersion.Distribution.Tarball = new Uri($"{RootHttpUrl}/{npmPackage.Id}/-/{GetUnityPackageFileName(packageIdentity)}");
                     npmVersion.Unity = MinimumUnityVersion;
